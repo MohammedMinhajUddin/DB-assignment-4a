@@ -1,0 +1,31 @@
+CREATE TABLE CustomerInfo (
+    CustomerID Char(10),
+    CustomerName Char(20),
+    CustomerPhone Char(11), 
+    CustomerAddress Char(30));
+    
+CREATE TABLE InstoreSales (
+    SalesID Char(10),
+    CustomerName Char(20),
+    AmountBilled int, 
+    PaymentInfo Char(5),
+    EmployeeID Char(10));
+
+CREATE TABLE Inventory (
+    ItemID Char(10),
+    ItemName Char(20), 
+    ItemType Char(10),
+    Instock Char(5));
+
+CREATE TABLE Operations (
+    EmployeeID Char(10),
+    TeamName Char(12),
+    Attendance Int,
+    Performance Int);
+ 
+ CREATE TABLE Vendor (
+    VendorID Char(10),
+    ItemName Char(20),
+    ItemType Char(10),
+    ConsignmentID Char(10));
+     
